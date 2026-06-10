@@ -63,7 +63,7 @@
             "show_variant_labels": true,
             "picker_type": "button",
             "enable_color_swatches": true,
-            "swatches_source": "file",
+            "swatches_source": "variant",
             "swatch_type": "round",
             "enable_swatch_cross": true,
             "enable_swatch_unavailable_click": false,
@@ -74,7 +74,7 @@
           "type": "buy_buttons",
           "settings": {
             "show_quantity_selector": true,
-            "show_dynamic_checkout": false,
+            "show_dynamic_checkout": true,
             "show_gift_card_recipient": false
           }
         },
@@ -238,6 +238,7 @@
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "auto",
         "enable_video_looping": false,
+        "video_url": "",
         "use_custom_colors": false,
         "colors_button_label": "#ffffff",
         "colors_button_background": "#1a1b18",
@@ -320,6 +321,7 @@
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "auto",
         "enable_video_looping": false,
+        "video_url": "",
         "use_custom_colors": false,
         "colors_button_label": "#ffffff",
         "colors_button_background": "#1a1b18",
