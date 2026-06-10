@@ -149,7 +149,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "Welcome to our store",
+            "text": "Nature’s Purest Touch for Soft, Healthy Skin",
             "text_size": 20,
             "link": ""
           }
@@ -257,7 +257,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "Welcome to our store",
+            "text": "Handcrafted with Olive Oil, Made to Nourish Every Day",
             "text_size": 20,
             "link": ""
           }
@@ -280,6 +280,56 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_8xXtKX": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_3ytmFp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Natural Care for Every Skin Type",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_JKhpmn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Free from harsh chemicals and artificial additives, this handcrafted soap is suitable for all skin types, including sensitive skin. Experience a simple, authentic skincare routine inspired by nature.</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_3ytmFp",
+        "text_JKhpmn"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/WhatsAppImage2026-06-09at9.25.26PM.jpg",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "custom_liquid_ybjYmj": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
@@ -291,8 +341,73 @@
         "padding_bottom": 36
       }
     },
+    "faq_EaFFJy": {
+      "type": "faq",
+      "blocks": {
+        "question_xY9VqF": {
+          "type": "question",
+          "settings": {
+            "title": "Is the soap suitable for sensitive skin?",
+            "text": "<p>Yes, our organic soap is made with gentle, natural ingredients and is suitable for sensitive skin.</p><p></p>"
+          }
+        },
+        "question_rai4kG": {
+          "type": "question",
+          "settings": {
+            "title": "What ingredients are used in the soap?",
+            "text": "<p>Our soap is primarily crafted with premium extra virgin olive oil and carefully selected natural ingredients.</p><p></p>"
+          }
+        },
+        "question_zxeLDA": {
+          "type": "question",
+          "settings": {
+            "title": "Can I use it every day?",
+            "text": "<p>Absolutely! The gentle formula is designed for daily use on the face and body.</p><p></p>"
+          }
+        },
+        "question_3zn6QG": {
+          "type": "question",
+          "settings": {
+            "title": "Does the soap contain artificial fragrances or chemicals?",
+            "text": "<p>No. Our soap is free from harsh chemicals, artificial fragrances, and synthetic additives.</p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_xY9VqF",
+        "question_rai4kG",
+        "question_zxeLDA",
+        "question_3zn6QG"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "narrow": false,
+        "secondary_background": false,
+        "show_divider": false,
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1771945068374140eb": {
       "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_GCyppy": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "real_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_GCyppy"
+      ],
       "settings": {
         "include_margins": true,
         "show_divider": false,
@@ -364,7 +479,9 @@
     "product-recommendations",
     "image_with_text_9KLPdE",
     "scrolling_promotion_wWEzUR",
+    "image_with_text_8xXtKX",
     "custom_liquid_ybjYmj",
+    "faq_EaFFJy",
     "1771945068374140eb",
     "guarantees_Yj7NaV",
     "1771850465e38b72c3"
